@@ -24,7 +24,7 @@ public class GlobalExceptionHandler extends BaseControllerExceptionHandler {
     private Logger log = LoggerFactory.getLogger(this.getClass());
 
     /**
-     * 拦截jwt相关异常
+     * 拦截jwt相关异常测试一下
      */
     @ExceptionHandler(JwtException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
